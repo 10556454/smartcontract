@@ -13,3 +13,4 @@ with open(".pk") as pkfile:
      privateKey=pkfile.read()
 with open(".infura") as infurafile:
      infuraKey=infurafile.read()
+print ('files read successful')
